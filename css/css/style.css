@@ -1,0 +1,47 @@
+:root{
+    --red : red ;
+    --black : black ;
+}
+body{
+    background: var(--black);
+}
+.netflix{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+@keyframes animates {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.netflix span{
+    color: var(--red);
+    font-family: cursive;
+    font-size: 60px;
+}
+span:nth-child(1){
+    animation: animates .6s infinite ease-in-out;
+}
+span:nth-child(2){
+    animation: animates .8s infinite ease-in-out;
+}
+span:nth-child(3){
+    animation: animates 1.2s infinite ease-in-out;
+}
+span:nth-child(4){
+    animation: animates 1.6s infinite ease-in-out;
+}
+span:nth-child(5){
+    animation: animates 1.8s infinite ease-in-out;
+}
+span:nth-child(6){
+    animation: animates 2s infinite ease-in-out;
+}
+span:nth-child(7){
+    animation: animates 2.2s infinite ease-in-out;
+}
